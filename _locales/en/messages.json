@@ -1,0 +1,44 @@
+{
+  "ext_name": {
+    "message": "Ask Perplexity"
+  },
+  "ext_description": {
+    "message": "Ask for clarifications, summaries or explanations on any web page."
+  },
+  "popup_title": {
+    "message": "Ask Ask Perplexity"
+  },
+  "ask_placeholder": {
+    "message": "Ask a question..."
+  },
+  "shortcut_what": {
+    "message": "What does it mean?"
+  },
+  "shortcut_summary": {
+    "message": "Summarize the content"
+  },
+  "shortcut_simplify": {
+    "message": "Simplify the text"
+  },
+  "confirm_button": {
+    "message": "Go"
+  },
+  "app_name": {
+    "message": "Ask Perplexity"
+  },
+  "app_description": {
+    "message": "Ask for clarifications, summaries or explanations on any web page."
+  },
+  "shortcut_what_tooltip": {
+    "message": "What does this sentence mean?"
+  },
+  "shortcut_summary_tooltip": {
+    "message": "Get a summary of the content."
+  },
+  "shortcut_simplify_tooltip": {
+    "message": "Simplify the selected text."
+  },
+  "error_empty": {
+    "message": "Please enter a question."
+  }
+}

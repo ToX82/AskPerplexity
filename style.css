@@ -1,0 +1,166 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 320px;
+    background: #f7f9fa;
+    color: #222;
+}
+.popup-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(26,115,232,0.10), 0 1.5px 4px rgba(0,0,0,0.04);
+    margin: 18px 12px;
+    padding: 22px 20px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+}
+.header-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #1a73e8 60%, #4285f4 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(26,115,232,0.10);
+}
+.header-icon img {
+    width: 22px;
+    height: 22px;
+    filter: brightness(0) invert(1);
+}
+.title {
+    font-size: 1.18em;
+    font-weight: 600;
+    color: #1a73e8;
+    letter-spacing: 0.5px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+input[type="text"] {
+    width: calc(100% - 24px);
+    margin: 0;
+    padding: 12px 12px;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1em;
+    background: #fafdff;
+    transition: border 0.2s, box-shadow 0.2s;
+    box-shadow: 0 1px 2px rgba(26,115,232,0.03);
+}
+input[type="text"]:focus {
+    border: 1.5px solid #1a73e8;
+    outline: none;
+    box-shadow: 0 0 0 2px #e3eafc;
+}
+.shortcuts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 2px;
+}
+.shortcuts button {
+    width: 100%;
+    text-align: left;
+    padding: 9px 12px;
+    border: none;
+    border-radius: 7px;
+    background: #e3eafc;
+    color: #1a237e;
+    font-size: 0.99em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    position: relative;
+}
+.shortcuts button:hover, .shortcuts button:focus {
+    background: #1a73e8;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(26,115,232,0.10);
+}
+.shortcuts button[data-tooltip]:hover::after, .shortcuts button[data-tooltip]:focus::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: 120%;
+    transform: translateX(-50%);
+    background: #222;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.97em;
+    white-space: pre-line;
+    z-index: 10;
+    opacity: 0.97;
+    pointer-events: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+    min-width: 160px;
+    text-align: center;
+}
+.shortcuts button[data-tooltip]:hover::before, .shortcuts button[data-tooltip]:focus::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 112%;
+    transform: translateX(-50%);
+    border-width: 7px 7px 0 7px;
+    border-style: solid;
+    border-color: #222 transparent transparent transparent;
+    z-index: 11;
+    pointer-events: none;
+}
+#ask {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #1a73e8 60%, #4285f4 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.07em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 6px;
+    box-shadow: 0 2px 8px rgba(26,115,232,0.07);
+    transition: background 0.2s, opacity 0.2s;
+}
+#ask:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+#ask:hover:not(:disabled) {
+    background: linear-gradient(90deg, #4285f4 60%, #1a73e8 100%);
+}
+.error-message {
+    color: #d32f2f;
+    background: #fff0f0;
+    border-radius: 6px;
+    padding: 7px 10px;
+    font-size: 0.97em;
+    margin-top: 2px;
+    display: none;
+}
+.spinner {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2.5px solid #fff;
+    border-top: 2.5px solid #1a73e8;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

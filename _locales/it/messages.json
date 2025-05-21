@@ -1,0 +1,44 @@
+{
+  "ext_name": {
+    "message": "Ask Perplexity"
+  },
+  "ext_description": {
+    "message": "Chiedi chiarimenti, riassunti o spiegazioni su qualsiasi pagina web."
+  },
+  "ask_placeholder": {
+    "message": "Fai una domanda..."
+  },
+  "shortcut_what": {
+    "message": "Cosa significa?"
+  },
+  "shortcut_summary": {
+    "message": "Riassumi il contenuto"
+  },
+  "shortcut_simplify": {
+    "message": "Semplifica il testo"
+  },
+  "confirm_button": {
+    "message": "Procedi"
+  },
+  "popup_title": {
+    "message": "Chiedi a Ask Perplexity"
+  },
+  "app_name": {
+    "message": "Ask Perplexity"
+  },
+  "app_description": {
+    "message": "Chiedi chiarimenti, riassunti o spiegazioni su qualsiasi pagina web."
+  },
+  "shortcut_what_tooltip": {
+    "message": "Qual è il significato?"
+  },
+  "shortcut_summary_tooltip": {
+    "message": "Ottieni un riassunto del contenuto."
+  },
+  "shortcut_simplify_tooltip": {
+    "message": "Semplifica il testo selezionato."
+  },
+  "error_empty": {
+    "message": "Inserisci una domanda."
+  }
+}

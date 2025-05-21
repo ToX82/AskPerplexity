@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="popup-card">
+    <div class="header">
+      <div class="header-icon">
+        <img src="icon.png" alt="Clarifier icon" />
+      </div>
+      <div class="title" data-i18n="popup_title"></div>
+    </div>
+    <div class="input-group">
+      <input id="question" type="text" data-i18n-placeholder="ask_placeholder" autocomplete="off" />
+      <div class="error-message" id="error-message"></div>
+    </div>
+    <div class="shortcuts">
+      <button data-i18n="shortcut_what" data-tooltip="Cosa significa questa frase?"></button>
+      <button data-i18n="shortcut_summary" data-tooltip="Ottieni un riassunto del contenuto."></button>
+      <button data-i18n="shortcut_simplify" data-tooltip="Semplifica il testo selezionato."></button>
+    </div>
+    <button id="ask" data-i18n="confirm_button"></button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
