@@ -22,9 +22,17 @@ function localizeHtml() {
   });
   // Tooltip localizzati
   const tooltipKeys = {
-    'shortcut_what': 'shortcut_what_tooltip',
     'shortcut_summary': 'shortcut_summary_tooltip',
-    'shortcut_simplify': 'shortcut_simplify_tooltip'
+    'shortcut_keypoints': 'shortcut_keypoints_tooltip',
+    'shortcut_qa': 'shortcut_qa_tooltip',
+    'shortcut_glossary': 'shortcut_glossary_tooltip',
+    'shortcut_translate': 'shortcut_translate_tooltip',
+    'shortcut_highlight': 'shortcut_highlight_tooltip',
+    'shortcut_by_section': 'shortcut_by_section_tooltip',
+    'shortcut_flashcard': 'shortcut_flashcard_tooltip',
+    'shortcut_timeline': 'shortcut_timeline_tooltip',
+    'shortcut_tone': 'shortcut_tone_tooltip',
+    'shortcut_reliability': 'shortcut_reliability_tooltip'
   };
   document.querySelectorAll('.shortcuts button').forEach(btn => {
     const key = btn.getAttribute('data-i18n');
@@ -61,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Shortcut click
   buttons.forEach(button => {
     button.addEventListener('click', () => {
-      input.value = button.dataset.text;
+      input.value = button.getAttribute('data-tooltip') || button.dataset.text;
       toggleAskBtn();
       input.focus();
     });

@@ -15,7 +15,7 @@
     "message": "What does it mean?"
   },
   "shortcut_summary": {
-    "message": "Summarize the content"
+    "message": "Summarize the page"
   },
   "shortcut_simplify": {
     "message": "Simplify the text"
@@ -33,12 +33,84 @@
     "message": "What does this sentence mean?"
   },
   "shortcut_summary_tooltip": {
-    "message": "Get a summary of the content."
+    "message": "Generate a summary with the main concepts."
   },
   "shortcut_simplify_tooltip": {
     "message": "Simplify the selected text."
   },
   "error_empty": {
     "message": "Please enter a question."
+  },
+  "shortcut_explain_13": {
+    "message": "Explain like I'm 13"
+  },
+  "shortcut_explain_13_tooltip": {
+    "message": "Explain this page as if I were 13 years old."
+  },
+  "shortcut_explain_uni": {
+    "message": "Explain like I'm a university student"
+  },
+  "shortcut_explain_uni_tooltip": {
+    "message": "Explain this page as if I were a university student."
+  },
+  "shortcut_keypoints": {
+    "message": "Extract key points"
+  },
+  "shortcut_qa": {
+    "message": "Questions and answers"
+  },
+  "shortcut_glossary": {
+    "message": "Automatic glossary"
+  },
+  "shortcut_translate": {
+    "message": "Translate this page"
+  },
+  "shortcut_highlight": {
+    "message": "Highlight key points"
+  },
+  "shortcut_by_section": {
+    "message": "Breakdown by section"
+  },
+  "shortcut_flashcard": {
+    "message": "Turn into flashcards"
+  },
+  "shortcut_timeline": {
+    "message": "Generate a timeline"
+  },
+  "shortcut_tone": {
+    "message": "Analyze tone"
+  },
+  "shortcut_reliability": {
+    "message": "Check reliability"
+  },
+  "shortcut_keypoints_tooltip": {
+    "message": "Show a bulleted list of the main ideas."
+  },
+  "shortcut_qa_tooltip": {
+    "message": "Create useful questions with answers based on the content."
+  },
+  "shortcut_glossary_tooltip": {
+    "message": "Highlight and explain complex terms."
+  },
+  "shortcut_translate_tooltip": {
+    "message": "Translate the entire content into your language."
+  },
+  "shortcut_highlight_tooltip": {
+    "message": "Highlight the most important sentences, names, dates and figures."
+  },
+  "shortcut_by_section_tooltip": {
+    "message": "Show summaries or explanations for each paragraph or heading."
+  },
+  "shortcut_flashcard_tooltip": {
+    "message": "Create study cards with question and answer."
+  },
+  "shortcut_timeline_tooltip": {
+    "message": "Build a timeline if the page is about events."
+  },
+  "shortcut_tone_tooltip": {
+    "message": "Evaluate if the content is positive, negative, or neutral."
+  },
+  "shortcut_reliability_tooltip": {
+    "message": "Assess if the content is trustworthy and verifiable."
   }
 }

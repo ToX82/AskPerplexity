@@ -40,5 +40,77 @@
   },
   "error_empty": {
     "message": "Inserisci una domanda."
+  },
+  "shortcut_explain_13": {
+    "message": "Spiega come se avessi 13 anni"
+  },
+  "shortcut_explain_13_tooltip": {
+    "message": "Spiega questa pagina come se avessi 13 anni."
+  },
+  "shortcut_explain_uni": {
+    "message": "Spiega come se fossi uno studente universitario"
+  },
+  "shortcut_explain_uni_tooltip": {
+    "message": "Spiega questa pagina come se fossi uno studente universitario."
+  },
+  "shortcut_keypoints": {
+    "message": "Estrai punti chiave"
+  },
+  "shortcut_qa": {
+    "message": "Fai domande e risposte"
+  },
+  "shortcut_glossary": {
+    "message": "Crea un glossario automatico"
+  },
+  "shortcut_translate": {
+    "message": "Traduci questa pagina"
+  },
+  "shortcut_highlight": {
+    "message": "Evidenzia punti chiave"
+  },
+  "shortcut_by_section": {
+    "message": "Scomponi per sezione"
+  },
+  "shortcut_flashcard": {
+    "message": "Trasforma in flashcard"
+  },
+  "shortcut_timeline": {
+    "message": "Genera una timeline"
+  },
+  "shortcut_tone": {
+    "message": "Analizza il tono del testo"
+  },
+  "shortcut_reliability": {
+    "message": "Verifica l'attendibilità"
+  },
+  "shortcut_keypoints_tooltip": {
+    "message": "Mostra un elenco puntato con le idee principali del testo."
+  },
+  "shortcut_qa_tooltip": {
+    "message": "Crea domande utili con relative risposte basate sul contenuto."
+  },
+  "shortcut_glossary_tooltip": {
+    "message": "Evidenzia e spiega i termini complessi trovati nella pagina."
+  },
+  "shortcut_translate_tooltip": {
+    "message": "Traduce l'intero contenuto nella tua lingua."
+  },
+  "shortcut_highlight_tooltip": {
+    "message": "Evidenzia le frasi più importanti, nomi, date e cifre."
+  },
+  "shortcut_by_section_tooltip": {
+    "message": "Mostra riassunti o spiegazioni per ogni paragrafo o intestazione."
+  },
+  "shortcut_flashcard_tooltip": {
+    "message": "Crea schede di studio con domanda e risposta."
+  },
+  "shortcut_timeline_tooltip": {
+    "message": "Costruisce una linea del tempo se la pagina parla di eventi."
+  },
+  "shortcut_tone_tooltip": {
+    "message": "Valuta se il contenuto è positivo, negativo o neutro."
+  },
+  "shortcut_reliability_tooltip": {
+    "message": "Valuta se il contenuto è attendibile e verificabile."
   }
 }
