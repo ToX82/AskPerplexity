@@ -14,8 +14,14 @@
   "shortcut_summary": {
     "message": "Riassumi il contenuto"
   },
-  "shortcut_simplify": {
-    "message": "Semplifica il testo"
+  "shortcut_summary_tooltip": {
+    "message": "Ottieni un riassunto del contenuto, con elenco puntato e testo conciso."
+  },
+  "shortcut_simplify_content": {
+    "message": "Semplifica il contenuto"
+  },
+  "shortcut_simplify_content_tooltip": {
+    "message": "Riformula il contenuto in modo più semplice e accessibile, mantenendo le idee principali."
   },
   "confirm_button": {
     "message": "Procedi"
@@ -31,15 +37,6 @@
   },
   "shortcut_what_tooltip": {
     "message": "Qual è il significato?"
-  },
-  "shortcut_summary_tooltip": {
-    "message": "Ottieni un riassunto del contenuto."
-  },
-  "shortcut_simplify_tooltip": {
-    "message": "Semplifica il testo selezionato."
-  },
-  "error_empty": {
-    "message": "Inserisci una domanda."
   },
   "shortcut_explain_13": {
     "message": "Spiega come se avessi 13 anni"
@@ -57,10 +54,16 @@
     "message": "Estrai punti chiave"
   },
   "shortcut_qa": {
-    "message": "Fai domande e risposte"
+    "message": "Domande e risposte"
+  },
+  "shortcut_qa_tooltip": {
+    "message": "Crea domande utili con risposte basate sul contenuto."
   },
   "shortcut_glossary": {
-    "message": "Crea un glossario automatico"
+    "message": "Glossario automatico"
+  },
+  "shortcut_glossary_tooltip": {
+    "message": "Evidenzia e spiega i termini complessi."
   },
   "shortcut_translate": {
     "message": "Traduci questa pagina"
@@ -74,44 +77,29 @@
   "shortcut_flashcard": {
     "message": "Trasforma in flashcard"
   },
-  "shortcut_timeline": {
-    "message": "Genera una timeline"
-  },
-  "shortcut_tone": {
-    "message": "Analizza il tono del testo"
-  },
-  "shortcut_reliability": {
-    "message": "Verifica l'attendibilità"
-  },
-  "shortcut_keypoints_tooltip": {
-    "message": "Mostra un elenco puntato con le idee principali del testo."
-  },
-  "shortcut_qa_tooltip": {
-    "message": "Crea domande utili con relative risposte basate sul contenuto."
-  },
-  "shortcut_glossary_tooltip": {
-    "message": "Evidenzia e spiega i termini complessi trovati nella pagina."
-  },
-  "shortcut_translate_tooltip": {
-    "message": "Traduce l'intero contenuto nella tua lingua."
-  },
-  "shortcut_highlight_tooltip": {
-    "message": "Evidenzia le frasi più importanti, nomi, date e cifre."
-  },
-  "shortcut_by_section_tooltip": {
-    "message": "Mostra riassunti o spiegazioni per ogni paragrafo o intestazione."
-  },
   "shortcut_flashcard_tooltip": {
     "message": "Crea schede di studio con domanda e risposta."
   },
+  "shortcut_timeline": {
+    "message": "Genera una timeline"
+  },
   "shortcut_timeline_tooltip": {
-    "message": "Costruisce una linea del tempo se la pagina parla di eventi."
+    "message": "Crea una linea del tempo se la pagina parla di eventi."
+  },
+  "shortcut_tone": {
+    "message": "Analizza il tono"
   },
   "shortcut_tone_tooltip": {
     "message": "Valuta se il contenuto è positivo, negativo o neutro."
   },
+  "shortcut_reliability": {
+    "message": "Verifica attendibilità"
+  },
   "shortcut_reliability_tooltip": {
     "message": "Valuta se il contenuto è attendibile e verificabile."
+  },
+  "shortcut_keypoints_tooltip": {
+    "message": "Mostra un elenco puntato con le idee principali del testo."
   },
   "shortcut_group_summary": {
     "message": "Riepilogo e comprensione"
@@ -121,5 +109,8 @@
   },
   "shortcut_group_study": {
     "message": "Studio e produttività"
+  },
+  "error_empty": {
+    "message": "Inserisci una domanda."
   }
 }

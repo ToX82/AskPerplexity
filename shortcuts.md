@@ -1,10 +1,10 @@
 ### Summary and Understanding
 
 - **Summarize the page**
-  _Generate a summary with the main concepts._
+  _Generate a summary with the main concepts, using a bulleted list and a concise text._
 
-- **Extract key points**
-  _Show a bulleted list of the main ideas._
+- **Simplify the content**
+  _Rewrite the content in a simpler and more accessible way, keeping the main ideas._
 
 - **Questions and answers**
   _Create useful questions with answers based on the content._

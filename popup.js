@@ -38,6 +38,7 @@ function localizeHtml() {
 function localizeTooltips() {
   const tooltipKeys = {
     'shortcut_summary': 'shortcut_summary_tooltip',
+    'shortcut_simplify_content': 'shortcut_simplify_content_tooltip',
     'shortcut_keypoints': 'shortcut_keypoints_tooltip',
     'shortcut_qa': 'shortcut_qa_tooltip',
     'shortcut_glossary': 'shortcut_glossary_tooltip',

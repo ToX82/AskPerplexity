@@ -6,7 +6,7 @@
     "message": "Ask for clarifications, summaries or explanations on any web page."
   },
   "popup_title": {
-    "message": "Ask Ask Perplexity"
+    "message": "Ask Perplexity"
   },
   "ask_placeholder": {
     "message": "Ask a question..."
@@ -17,29 +17,53 @@
   "shortcut_summary": {
     "message": "Summarize the page"
   },
-  "shortcut_simplify": {
-    "message": "Simplify the text"
+  "shortcut_summary_tooltip": {
+    "message": "Generate a summary with the main concepts, using a bulleted list and a concise text."
   },
-  "confirm_button": {
-    "message": "Go"
+  "shortcut_simplify_content": {
+    "message": "Simplify the content"
   },
-  "app_name": {
-    "message": "Ask Perplexity"
+  "shortcut_simplify_content_tooltip": {
+    "message": "Rewrite the content in a simpler and more accessible way, keeping the main ideas."
   },
-  "app_description": {
-    "message": "Ask for clarifications, summaries or explanations on any web page."
+  "shortcut_qa": {
+    "message": "Questions and answers"
+  },
+  "shortcut_qa_tooltip": {
+    "message": "Create useful questions with answers based on the content."
+  },
+  "shortcut_glossary": {
+    "message": "Automatic glossary"
+  },
+  "shortcut_glossary_tooltip": {
+    "message": "Highlight and explain complex terms."
+  },
+  "shortcut_tone": {
+    "message": "Analyze tone"
+  },
+  "shortcut_tone_tooltip": {
+    "message": "Evaluate if the content is positive, negative, or neutral."
+  },
+  "shortcut_reliability": {
+    "message": "Check reliability"
+  },
+  "shortcut_reliability_tooltip": {
+    "message": "Assess if the content is trustworthy and verifiable."
+  },
+  "shortcut_flashcard": {
+    "message": "Turn into flashcards"
+  },
+  "shortcut_flashcard_tooltip": {
+    "message": "Create study cards with question and answer."
+  },
+  "shortcut_timeline": {
+    "message": "Generate a timeline"
+  },
+  "shortcut_timeline_tooltip": {
+    "message": "Build a timeline if the page is about events."
   },
   "shortcut_what_tooltip": {
     "message": "What does this sentence mean?"
-  },
-  "shortcut_summary_tooltip": {
-    "message": "Generate a summary with the main concepts."
-  },
-  "shortcut_simplify_tooltip": {
-    "message": "Simplify the selected text."
-  },
-  "error_empty": {
-    "message": "Please enter a question."
   },
   "shortcut_explain_13": {
     "message": "Explain like I'm 13"
@@ -56,62 +80,26 @@
   "shortcut_keypoints": {
     "message": "Extract key points"
   },
-  "shortcut_qa": {
-    "message": "Questions and answers"
-  },
-  "shortcut_glossary": {
-    "message": "Automatic glossary"
+  "shortcut_keypoints_tooltip": {
+    "message": "Show a bulleted list of the main ideas."
   },
   "shortcut_translate": {
     "message": "Translate this page"
   },
-  "shortcut_highlight": {
-    "message": "Highlight key points"
-  },
-  "shortcut_by_section": {
-    "message": "Breakdown by section"
-  },
-  "shortcut_flashcard": {
-    "message": "Turn into flashcards"
-  },
-  "shortcut_timeline": {
-    "message": "Generate a timeline"
-  },
-  "shortcut_tone": {
-    "message": "Analyze tone"
-  },
-  "shortcut_reliability": {
-    "message": "Check reliability"
-  },
-  "shortcut_keypoints_tooltip": {
-    "message": "Show a bulleted list of the main ideas."
-  },
-  "shortcut_qa_tooltip": {
-    "message": "Create useful questions with answers based on the content."
-  },
-  "shortcut_glossary_tooltip": {
-    "message": "Highlight and explain complex terms."
-  },
   "shortcut_translate_tooltip": {
     "message": "Translate the entire content into your language."
+  },
+  "shortcut_highlight": {
+    "message": "Highlight key points"
   },
   "shortcut_highlight_tooltip": {
     "message": "Highlight the most important sentences, names, dates and figures."
   },
+  "shortcut_by_section": {
+    "message": "Breakdown by section"
+  },
   "shortcut_by_section_tooltip": {
     "message": "Show summaries or explanations for each paragraph or heading."
-  },
-  "shortcut_flashcard_tooltip": {
-    "message": "Create study cards with question and answer."
-  },
-  "shortcut_timeline_tooltip": {
-    "message": "Build a timeline if the page is about events."
-  },
-  "shortcut_tone_tooltip": {
-    "message": "Evaluate if the content is positive, negative, or neutral."
-  },
-  "shortcut_reliability_tooltip": {
-    "message": "Assess if the content is trustworthy and verifiable."
   },
   "shortcut_group_summary": {
     "message": "Summary and Understanding"
@@ -121,5 +109,14 @@
   },
   "shortcut_group_study": {
     "message": "Study and Productivity"
+  },
+  "confirm_button": {
+    "message": "Go"
+  },
+  "app_name": {
+    "message": "Ask Perplexity"
+  },
+  "app_description": {
+    "message": "Ask for clarifications, summaries or explanations on any web page."
   }
 }

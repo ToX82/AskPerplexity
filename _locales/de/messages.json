@@ -11,15 +11,6 @@
   "ask_placeholder": {
     "message": "Stellen Sie eine Frage..."
   },
-  "shortcut_what": {
-    "message": "Was bedeutet das?"
-  },
-  "shortcut_summary": {
-    "message": "Seite zusammenfassen"
-  },
-  "shortcut_simplify": {
-    "message": "Text vereinfachen"
-  },
   "confirm_button": {
     "message": "Los"
   },
@@ -29,89 +20,56 @@
   "app_description": {
     "message": "Fragen Sie nach Klärungen, Zusammenfassungen oder Erklärungen zu jeder Webseite."
   },
-  "shortcut_what_tooltip": {
-    "message": "Was bedeutet dieser Satz?"
-  },
-  "shortcut_summary_tooltip": {
-    "message": "Generieren Sie eine Zusammenfassung mit den Hauptkonzepten."
-  },
-  "shortcut_simplify_tooltip": {
-    "message": "Vereinfachen Sie den ausgewählten Text."
-  },
   "error_empty": {
     "message": "Bitte geben Sie eine Frage ein."
   },
-  "shortcut_explain_13": {
-    "message": "Erklären Sie es mir wie einem 13-Jährigen"
+  "shortcut_summary": {
+    "message": "Seite zusammenfassen"
   },
-  "shortcut_explain_13_tooltip": {
-    "message": "Erklären Sie diese Seite, als wäre ich 13 Jahre alt."
+  "shortcut_summary_tooltip": {
+    "message": "Erstellen Sie eine Zusammenfassung mit den Hauptkonzepten, als Aufzählung und in einem prägnanten Text."
   },
-  "shortcut_explain_uni": {
-    "message": "Erklären Sie es mir wie einem Studenten"
+  "shortcut_simplify_content": {
+    "message": "Inhalt vereinfachen"
   },
-  "shortcut_explain_uni_tooltip": {
-    "message": "Erklären Sie diese Seite, als wäre ich ein Student."
-  },
-  "shortcut_keypoints": {
-    "message": "Hauptpunkte extrahieren"
+  "shortcut_simplify_content_tooltip": {
+    "message": "Formulieren Sie den Inhalt einfacher und zugänglicher um, wobei die Hauptideen erhalten bleiben."
   },
   "shortcut_qa": {
     "message": "Fragen und Antworten"
   },
+  "shortcut_qa_tooltip": {
+    "message": "Erstellen Sie nützliche Fragen mit Antworten basierend auf dem Inhalt."
+  },
   "shortcut_glossary": {
     "message": "Automatisches Glossar"
   },
-  "shortcut_translate": {
-    "message": "Diese Seite übersetzen"
-  },
-  "shortcut_highlight": {
-    "message": "Hauptpunkte hervorheben"
-  },
-  "shortcut_by_section": {
-    "message": "Nach Abschnitten aufteilen"
-  },
-  "shortcut_flashcard": {
-    "message": "In Karteikarten umwandeln"
-  },
-  "shortcut_timeline": {
-    "message": "Zeitachse erstellen"
+  "shortcut_glossary_tooltip": {
+    "message": "Heben Sie komplexe Begriffe hervor und erklären Sie sie."
   },
   "shortcut_tone": {
     "message": "Ton analysieren"
   },
+  "shortcut_tone_tooltip": {
+    "message": "Bewerten Sie, ob der Inhalt positiv, negativ oder neutral ist."
+  },
   "shortcut_reliability": {
     "message": "Zuverlässigkeit prüfen"
   },
-  "shortcut_keypoints_tooltip": {
-    "message": "Zeigen Sie eine Aufzählung der Hauptideen."
+  "shortcut_reliability_tooltip": {
+    "message": "Bewerten Sie, ob der Inhalt vertrauenswürdig und überprüfbar ist."
   },
-  "shortcut_qa_tooltip": {
-    "message": "Erstellen Sie nützliche Fragen mit Antworten basierend auf dem Inhalt."
-  },
-  "shortcut_glossary_tooltip": {
-    "message": "Komplexe Begriffe hervorheben und erklären."
-  },
-  "shortcut_translate_tooltip": {
-    "message": "Übersetzen Sie den gesamten Inhalt in Ihre Sprache."
-  },
-  "shortcut_highlight_tooltip": {
-    "message": "Heben Sie die wichtigsten Sätze, Namen, Daten und Zahlen hervor."
-  },
-  "shortcut_by_section_tooltip": {
-    "message": "Zeigen Sie Zusammenfassungen oder Erklärungen für jeden Absatz oder jede Überschrift."
+  "shortcut_flashcard": {
+    "message": "In Lernkarten umwandeln"
   },
   "shortcut_flashcard_tooltip": {
     "message": "Erstellen Sie Lernkarten mit Frage und Antwort."
   },
+  "shortcut_timeline": {
+    "message": "Zeitachse erstellen"
+  },
   "shortcut_timeline_tooltip": {
     "message": "Erstellen Sie eine Zeitachse, wenn die Seite von Ereignissen handelt."
-  },
-  "shortcut_tone_tooltip": {
-    "message": "Bewerten Sie, ob der Inhalt positiv, negativ oder neutral ist."
-  },
-  "shortcut_reliability_tooltip": {
-    "message": "Beurteilen Sie, ob der Inhalt vertrauenswürdig und überprüfbar ist."
   },
   "shortcut_group_summary": {
     "message": "Zusammenfassung und Verständnis"
