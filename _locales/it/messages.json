@@ -112,5 +112,14 @@
   },
   "shortcut_reliability_tooltip": {
     "message": "Valuta se il contenuto è attendibile e verificabile."
+  },
+  "shortcut_group_summary": {
+    "message": "Riepilogo e comprensione"
+  },
+  "shortcut_group_analysis": {
+    "message": "Analisi e verifica"
+  },
+  "shortcut_group_study": {
+    "message": "Studio e produttività"
   }
 }

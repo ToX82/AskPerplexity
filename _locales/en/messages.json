@@ -112,5 +112,14 @@
   },
   "shortcut_reliability_tooltip": {
     "message": "Assess if the content is trustworthy and verifiable."
+  },
+  "shortcut_group_summary": {
+    "message": "Summary and Understanding"
+  },
+  "shortcut_group_analysis": {
+    "message": "Analysis and Verification"
+  },
+  "shortcut_group_study": {
+    "message": "Study and Productivity"
   }
 }
