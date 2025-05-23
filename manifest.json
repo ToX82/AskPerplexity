@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Ask Perplexity",
   "description": "Ask for clarifications, summaries or explanations on any web page.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "default_locale": "en",
   "icons": {
     "16": "icon.png",
