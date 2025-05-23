@@ -40,13 +40,6 @@ All this without leaving the page or video you are watching!
 
 ![Screenshot](https://github.com/user-attachments/assets/abffe3a9-4147-4498-b1c7-1e67c02038d3)
 
-
----
-
-## Author
-
-[Emanuele 'ToX' Toscano](https://github.com/ToX82/)
-
 ---
 
 ## License
