@@ -30,13 +30,13 @@ All this without leaving the page or video you are watching!
 
 You can install the extension in two ways:
 
-### ✅ From the Chrome Web Store (Recommended)
+### From the Chrome Web Store (Recommended)
 
 1. Visit the [Ask Perplexity – Chrome Web Store](https://chromewebstore.google.com/detail/ask-perplexity/icjhfofnlhmnmihignfndfllkiggkiki)
 2. Click **"Add to Chrome"**
 3. The extension will appear in your extensions bar and be ready to use.
 
-### 🔧 Manual Installation (for development)
+### Manual Installation (for development)
 
 1. Download or clone this repository.
 2. Go to `chrome://extensions/` in your Chrome browser.
